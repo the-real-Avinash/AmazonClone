@@ -4,7 +4,7 @@ import StorefrontIcon from "@mui/icons-material/Storefront";
 import SearchIcon from "@mui/icons-material/Search";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../StateProviders/StateProvider";
 
 const Header = () => {
   const [{ basket }, dispatch] = useStateValue();
